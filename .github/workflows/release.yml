@@ -1,8 +1,6 @@
 name: 'Amplify Deploy test'
 on:
   push:
-    branches: [ stage ]
-  pull_request:
     branches: [ main ]
 jobs:
   test:
